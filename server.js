@@ -6,7 +6,7 @@ const PORT = 8090;
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('SCA Cloud School Application');
+  res.send('Welcome to SCA Cloud School Application, this is my first assessment');
 });
 
 app.listen(PORT);
